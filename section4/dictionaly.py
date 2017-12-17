@@ -19,6 +19,7 @@ print(d2.keys())
 print(d2.values())
 
 d3={'a':100,'c':30}
+d4=dict(a=30,b=40)
 print(d2,d3)
 d2.update(d3)
 print(d2)
@@ -26,3 +27,4 @@ print(d2['a'],d2.get('a'))
 d2.pop('a')
 print(d2)
 print('c' in d2)
+print(d4)
