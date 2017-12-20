@@ -16,8 +16,11 @@ print(id(j),id(i))
 print(id(j),id(x))
 
 n=[1,2,3,4,5,6,7,8,9]
+#開始地点より１個とばしての表示
 print(n[::2])
+#終点より一個ずつ並べられる。
 print(n[::-1])
+
 
 n.append(10)
 n.insert(0,0)
