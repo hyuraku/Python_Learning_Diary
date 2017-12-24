@@ -16,3 +16,11 @@ try:
     i[t]
 except IndexError as exc:
     print("Don't do that:{}".format(exc))
+
+
+try:
+    i[q]
+except Exception as exc:
+    print(exc)
+finally:
+    print(2017)
