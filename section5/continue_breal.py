@@ -1,5 +1,6 @@
 count=0
 while True:
+    #if count is 5,this method stops
     if count>=5:
         break
 
