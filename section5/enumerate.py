@@ -11,6 +11,7 @@ for fruit in ['apple','banana','orange']:
 2 orange
 """
 
+#enumerateを使って同様のコマンド
 for i,fruit in enumerate(['apple','banana','orange']):
     print(i,fruit)
 """

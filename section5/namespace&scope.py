@@ -10,5 +10,10 @@ def sample():
     print(animal)
 
 sample()
+"""
+>
+{'fish': 'salmon'}
+dog
+"""
 #グローバル変数とその値を出力する
 print(globals())

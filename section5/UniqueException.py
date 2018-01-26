@@ -13,3 +13,18 @@ def check():
             raise UppercaseError(word)
 
 check()
+"""
+>
+---------------------------------------------------------------------------
+UppercaseError                            Traceback (most recent call last)
+###in <module>()
+----> 1 check()
+
+###in check()
+      4     for word in words:
+      5         if word.isupper():
+----> 6             raise UppercaseError(word)
+
+UppercaseError: APPLE
+
+"""

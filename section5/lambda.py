@@ -5,10 +5,10 @@ def word_change(words,func):
     for word in words:
         print(func(word))
 
-'''
+
 def sample_func(word):
     return word.capitalize()
-'''
+    
 #この時関数に括弧、()は必要ない
 word_change(week,sample_func)
 

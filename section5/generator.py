@@ -17,6 +17,16 @@ for t in time:
 '''
 
 t=tell_time()
+#nextによってあらかじめyieldで指定した値を出力する。
 print(next(t))
+#> morning
 print(next(t))
+#> afternoon
 print(next(t))
+#> night
+print(next(t))
+"""
+>
+--<omit>--
+StopIteration:
+"""
