@@ -9,3 +9,10 @@ for i in some_list:
 
 
     print(some_list[i])
+
+"""
+>
+2
+3
+hello
+"""
