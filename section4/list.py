@@ -55,12 +55,18 @@ print(n)
 #> [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 n=[1,2,3,3,2]
+#指定の位置の数を削除、その数を出力
 n.remove(2)
 print(n)
+#> [1, 3, 3, 2]
 
 s="My name is John"
+#指定の記号で分けて、リストにする。
 to_split=s.split(' ')
 print(to_split)
+#> ['My', 'name', 'is', 'John']
 
+#+を区切り文字にして連結
 x='+'.join(to_split)
 print(x)
+#> My+name+is+John
