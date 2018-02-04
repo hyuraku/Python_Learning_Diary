@@ -14,5 +14,3 @@ about "Module&Package"
 about "Class&Method"
 - section8
 about "File operation"
-- section9
-make one application.
