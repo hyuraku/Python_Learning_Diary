@@ -9,3 +9,4 @@ The following is a description of each folder.
 - [section3](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section3) about "Module&Package"
 - [section4](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section4) about "Class&Method"
 - [section5](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section5) about "File operation"
+- [section6](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section6) about "Config&logging"
