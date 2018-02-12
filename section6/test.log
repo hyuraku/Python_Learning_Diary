@@ -1,4 +1,4 @@
 CRITICAL:root:critical
 ERROR:root:error
 WARNING:root:warning
-INFO:root:info
+INFO:root:info　test1 test2
