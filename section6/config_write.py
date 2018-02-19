@@ -14,5 +14,5 @@ config['db_server'] = {
 }
 
 # ファイルが無ければ生成される
-with open('config.ini', 'w') as config_file:
+with open('./section6/config.ini', 'w') as config_file:
     config.write(config_file)

@@ -1,6 +1,6 @@
 import yaml
 
-with open('config.yml', 'w') as yaml_file:
+with open('./section6/config.yml', 'w') as yaml_file:
     yaml.dump({
         'web_server': {
             'host': '127.0.0.1',
