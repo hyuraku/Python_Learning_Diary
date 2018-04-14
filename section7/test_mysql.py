@@ -10,12 +10,12 @@ conn = mysql.connector.connect(
     host="127.0.0.1", database='test_mysql_database')
 cursor = conn.cursor()
 
-#テーブル作成
+# テーブル作成
 # cursor.execute('CREATE TABLE persons('
 # 'id int NOT NULL AUTO_INCREMENT,'
 # 'name varchar(14) NOT NULL,'
 # 'PRIMARY KEY(id))')
-
+ß
 # cursor.execute('INSERT INTO persons(name) values("Mike")')
 # conn.commit()
 #
