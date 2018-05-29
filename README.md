@@ -11,3 +11,4 @@ The following is a description of each folder.
 - [section5](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section5) about "File operation"
 - [section6](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section6) about "Config&logging"
 - [section7](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section7) about "DB,SQL"
+- [section8](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section8) about "web,network"
