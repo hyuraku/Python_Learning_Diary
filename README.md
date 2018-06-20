@@ -12,3 +12,5 @@ The following is a description of each folder.
 - [section6](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section6) about "Config&logging"
 - [section7](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section7) about "DB,SQL"
 - [section8](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section8) about "web,network"
+- [section9](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section9) about "test"
+- [section10](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section10) about "Multithread,Multi-process"
