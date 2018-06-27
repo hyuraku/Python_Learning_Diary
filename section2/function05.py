@@ -21,6 +21,7 @@ d={
 menu2(**d)
 #> {'entree': 'beef', 'drink': 'beer', 'dessert': 'ice'}
 
+# *がtupleで変数を管理するのに対し**はdictionaryで管理する
 def menu3(food,*args,**kwargs):
     print(food)
     print(args)
