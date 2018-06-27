@@ -9,8 +9,6 @@ engine = sqlalchemy.create_engine(
 Base = sqlalchemy.ext.declarative.declarative_base()
 
 # テーブル作成
-
-
 class Person(Base):
     __tablename__ = 'persons'
     id = sqlalchemy.Column(
