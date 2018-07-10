@@ -21,7 +21,9 @@ stack2 = {
 }
 
 db_stacks = db.stacks
-stack_id = db_stacks.insert_one(stack1).inserted_id
+# stack_id = db_stacks.insert_one(stack1).inserted_id
+stack_id = db_stacks.insert_one(stack2).inserted_id
+
 print(stack_id,type(stack_id))
 from bson.objectid import ObjectId
 str_stack_id = '5b3cdc0cbbca0ab9451fa1fa'
