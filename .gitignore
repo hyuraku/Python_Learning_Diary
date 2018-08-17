@@ -5,3 +5,5 @@ section7/*/db/*
 section7/__pycache__/
 section9/*/__pycache__/
 section9/*/.cache/
+.cache/*
+section7/*.db
