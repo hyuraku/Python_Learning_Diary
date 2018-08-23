@@ -23,7 +23,12 @@ class TestCal(object):
         print('method = {}'.format(method.__name__))
         # del self.cal
 
-    def test_add_num_and_double(self):
+    def test_add_num_and_double(self,request):
+        os_name = request.config.getoption('--os-name')
+        if os_name == 'mac':
+            print('ls')
+        elif os_name == 'windows':
+            print('dir')
         assert self.cal.add_num_and_double(1,1) == 4
 
     @pytest.mark.skip(reason = 'skip!')
@@ -38,3 +43,6 @@ class TestCal(object):
 
 # 実行時のコマンドは下記の通り
 # python -m pytest [ファイル名]
+
+# conftestによるoptionの出力は以下の通り
+# pytest [file名] [contestによるoption指定、例: --os-name=mac] [-s]
