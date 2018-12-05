@@ -19,3 +19,7 @@ plaintext += chr(padding_length) * padding_length
 
 cipher_text = cipher.encrypt(plaintext)
 print(cipher_text)
+
+cipher2 = AES.new(key, AES.MODE_CBC,iv)
+decprypt_text = cipher2.decrypt(cipher_text)
+print(decprypt_text[:decprypt_text[-1]])
