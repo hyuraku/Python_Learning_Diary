@@ -1,9 +1,11 @@
+.cache/*
 section3/lesson_package/__pycache__/
 section6/__pycache__/
 section7/db/*
 section7/*/db/*
 section7/__pycache__/
+section7/*.db
 section9/*/__pycache__/
 section9/*/.cache/
-.cache/*
-section7/*.db
+section11/*.dat
+section11/plaintext
