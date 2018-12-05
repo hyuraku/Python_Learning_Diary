@@ -3,8 +3,19 @@ import random
 
 from Crypto.Cipher import AES
 
-print(AES.block_size)
-print(string.ascii_letters)
-
+# print(AES.block_size)
+# print(string.ascii_letters)
 key = ''.join(random.choice(string.ascii_letters)for _ in range(AES.block_size))
-print(key)
+
+# initial vector
+iv = ''.join(random.choice(string.ascii_letters)for _ in range(AES.block_size))
+print(key,iv)
+
+plaintext = 'HelloWorldCipher'
+
+cipher = AES.new(key, AES.MODE_CBC,iv)
+padding_length = AES.block_size - len(plaintext) % AES.block_size
+plaintext += chr(padding_length) * padding_length
+
+cipher_text = cipher.encrypt(plaintext)
+print(cipher_text)
