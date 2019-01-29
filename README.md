@@ -14,3 +14,4 @@ The following is a description of each folder.
 - [section8](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section8) about "web,network"
 - [section9](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section9) about "test"
 - [section10](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section10) about "Multithread,Multi-process"
+- [section11](https://github.com/hyuraku/Python_Learning_Diary/tree/master/section11) about "hash function,encryption"
